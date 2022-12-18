@@ -1,0 +1,13 @@
+int[] arr1 = new int[]{1, 2, 3}; // 1, 3, 6
+        int[] task4 = cumulativeSum(arr1);
+        for (int i = 0; i < task4.length; i++) {
+            System.out.print(task4[i]);
+            System.out.print(" ");
+        }
+        System.out.println(" ");
+        int[] arr2 = new int[]{1, -2, 3}; // 1, -1, 2
+        int[] task42 = cumulativeSum(arr2);
+        for (int i = 0; i < task42.length; i++) {
+            System.out.print(task42[i]);
+            System.out.print(" ");
+        }
